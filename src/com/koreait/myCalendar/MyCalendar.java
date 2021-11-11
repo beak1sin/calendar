@@ -1,6 +1,6 @@
 package com.koreait.myCalendar;
 
-//	달력 작업에 필요한 메소드를 모아놓은 클래스
+//	달력 작업에 필요한 메소드를 모아놓은 클래스입니다.
 public class MyCalendar {
 	
 //	년을 인수로 넘겨받아 윤년, 평년을 판단해 윤년은 true, 평년은 false를 리턴하는 메소드
