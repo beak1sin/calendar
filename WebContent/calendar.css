@@ -1,0 +1,147 @@
+table {
+		/* border: 선두께 선종류 선색상 */
+		border: 0px solid magenta;
+	}
+
+	tr {
+		height: 80px;
+		border-width: 0px;
+	}
+	
+	th {
+		border-width: 0px;
+	}
+	
+	/* css 색상 이름 => http://ielselog.blogspot.com/2013/10/css-color-keywords.html */
+	/* 
+		class 속성은 여러군데에 지정할 수 있다. 스타일을 지정할 때 class는 "."으로 표현한다.
+		id 속성은 딱 1군데에만 지정할 수 있다. 스타일을 지정할 때 id는 "#"으로 표현한다.
+	*/
+	
+	th#title {
+		font-size: 30pt;
+		font-family: D2Coding;
+		font-weight: bold;
+		color: magenta;
+	}
+	
+	td {
+		border: 1px solid black;
+		border-radius: 10px;
+		font-weight: bold;
+		width: 100px;
+		text-align: center;
+	}
+	
+	td#sunday {
+		font-size: 20pt;
+		background-color: red;
+		color: white;
+	}
+	
+	td.etcday {
+		font-size: 20pt;
+		background-color: black;
+		color: white;
+	}
+	
+	td#saturday {
+		font-size: 20pt;	
+		background-color: blue;
+		color: white;
+	}
+	
+	td.sun {
+		color: red;
+		text-align: right;
+		vertical-align: top;
+	}
+	
+	td.sat {
+		color: blue;
+		text-align: right;
+		vertical-align: top;
+	}
+	
+	td.etc {
+		text-align: right;
+		vertical-align: top;
+	}
+	
+	td.startSun {
+		color: red;
+		text-align: right;
+		vertical-align: top;
+		font-size: 9pt;
+		background-color: lightgray;
+	}
+	
+	td.startEtc {
+		text-align: right;
+		vertical-align: top;
+		font-size: 9pt;
+		background-color: lightgray;
+	}
+	
+	td.lastSat {
+		color: blue;
+		text-align: right;
+		vertical-align: top;
+		font-size: 9pt;
+		background-color: lightgray;
+	}
+	
+	td.lastEtc {
+		text-align: right;
+		vertical-align: top;
+		font-size: 9pt;
+		background-color: lightgray;
+	}
+	
+	
+	/* 
+		select.select는 select 태그의 class 속성이 select인 모든 요소를 선택한다.
+		.select는 class 속성이 select인 모든 요소를 선택한다.
+	 */
+	
+	.select {
+		width: 100px;
+		height: 30px;
+	}
+	
+	td.holiday {
+		color: red;
+		text-align: right;
+		vertical-align: top;
+		background-color: skyblue;
+	}
+	
+	span {
+		font-size: 9pt;
+	}
+	/* 
+		하이퍼링크 스타일 지정하기 
+		link => 한번도 클릭하지 않은 하이퍼링크
+		visited => 한번 이상 클릭한 하이퍼링크
+		hover => 마우스를 올리고 있을때
+		active => 마우스로 누르고 있을때
+		a:link {
+			color: black;
+			text-decoration: none;
+		}
+		a:visited {
+			color: black;
+			text-decoration: none;
+		}
+	*/
+	a { /* link와 visited 둘다 가능 */
+		color: black;
+		text-decoration: none;
+	}
+	a:hover { /* 마우스를 올리고 있을때 */
+		text-decoration: underline;
+	}
+	a:active { /* 마우스로 누르고 있을때 */
+		color: yellowgreen;
+		text-decoration: none;
+	}
