@@ -5,7 +5,7 @@ public class MyCalendar {
 	
 //	년을 인수로 넘겨받아 윤년, 평년을 판단해 윤년은 true, 평년은 false를 리턴하는 메소드
 	public static boolean isLeapYear(int year) {
-		return year % 4 == 0 && year % 100 !=0 || year % 400 == 0 ? true : false;
+		return (year % 4 == 0) (&& year % 100 !=0) || (year % 400 == 0) ? true : false;
 	}
 //	년, 월을 인수로 넘겨받아 그 달의 마지막 날짜를 리턴하는 메소드
 	public static int lastDay(int year, int month) {
